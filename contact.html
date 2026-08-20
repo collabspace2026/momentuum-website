@@ -1,4 +1,4 @@
-<title>Momentuum Opportunity Review — momentuum</title>
+<title>Contact — momentuum</title>
 <style>
   @font-face{
     font-family:'Space Grotesk';
@@ -432,10 +432,28 @@
 <style>
   .hero-note{margin-top:18px;font-size:.9rem;color:var(--ink-soft);}
   .hero-note b{color:var(--ink);}
-  .section-head-center{text-align:center;margin-left:auto;margin-right:auto;}
-  .paths-2{display:flex;flex-wrap:wrap;justify-content:center;}
-  .paths-2>.path{flex:1 1 360px;max-width:460px;}
-  @media (max-width:900px){ .paths-2>.path{flex:1 1 100%;max-width:520px;} }
+  .hero-note a{color:var(--ink);font-weight:700;}
+  .hero-grid{grid-template-columns:1fr 1.05fr;align-items:start;}
+  .contact-phone{display:flex;align-items:center;gap:12px;margin-top:30px;}
+  .contact-phone svg{width:20px;height:20px;stroke:var(--ink);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0;}
+  .contact-phone a{font-size:1.25rem;font-weight:700;color:var(--ink);text-decoration:none;letter-spacing:-.01em;}
+  .contact-phone a:hover{text-decoration:underline;}
+  .contact-form{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:36px;box-shadow:var(--shadow-sm);}
+  @media (max-width:520px){ .contact-form{padding:26px 22px;} }
+  .form-row{margin-bottom:18px;}
+  .form-row-pair{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+  @media (max-width:520px){ .form-row-pair{grid-template-columns:1fr;} }
+  .form-row label{display:block;font-size:.82rem;font-weight:700;color:var(--ink);margin-bottom:7px;}
+  .form-row input,.form-row textarea{
+    width:100%;padding:12px 14px;border:1px solid var(--line-strong);border-radius:10px;
+    font-family:inherit;font-size:.95rem;color:var(--ink);background:var(--bg);
+    transition:border-color .2s ease,box-shadow .2s ease;
+  }
+  .form-row input:focus,.form-row textarea:focus{outline:none;border-color:var(--ink);box-shadow:0 0 0 3px color-mix(in srgb, var(--ink) 10%, transparent);}
+  .form-row textarea{resize:vertical;min-height:120px;}
+  .contact-form .btn{width:100%;justify-content:center;border:none;cursor:pointer;font:inherit;margin-top:4px;}
+  .form-fineprint{margin-top:14px;font-size:.8rem;color:var(--ink-soft);text-align:center;}
+  .honeypot{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;}
 </style>
 <header>
   <div class="wrap nav">
@@ -458,128 +476,45 @@
 <section class="hero" id="top">
   <div class="hero-blob"></div>
   <div class="wrap">
-    <div class="eyebrow hero-eyebrow">Momentuum Opportunity Review</div>
-    <h1>Something feels off. <span class="highlight">Let's find out what it's costing you.</span></h1>
-    <p class="lede" style="max-width:60ch;">You don't need to already know what's broken. Give us 60–90 minutes and a few real examples, and we'll find, quantify and prioritise the opportunities that are actually worth fixing — then show you the most sensible place to start.</p>
-    <div class="hero-ctas">
-      <a class="btn btn-solid" href="#book">Book a free discovery call</a>
-      <a class="btn btn-outline" href="#offer">See what's included</a>
-    </div>
-    <p class="hero-note">In your discovery call, we'll learn about your business and confirm whether the Opportunity Review is the right next step — or whether something else would serve you better.</p>
-  </div>
-</section>
-
-<section class="band band-soft" id="offer">
-  <div class="wrap">
-    <div class="review">
+    <div class="hero-grid">
       <div>
-        <div class="eyebrow grad" style="margin-bottom:16px;">Opportunity Review</div>
-        <h2>Know the business could work better, but not where to start?</h2>
-        <p class="lede">The Momentuum Opportunity Review turns everyday frustration into a short, prioritised improvement plan.</p>
-        <ul>
-          <li>A free 20-minute fit call</li>
-          <li>One focused 60–90 minute working session</li>
-          <li>Real examples instead of long workshops and homework</li>
-          <li>Your Top 3 opportunities, quantified and prioritised</li>
-          <li>Clear recommendations: do now, do next, validate or don't fix yet</li>
-          <li>A concise report you own, with no obligation to use us</li>
-        </ul>
+        <div class="eyebrow hero-eyebrow">Contact</div>
+        <h1>We'd love to hear from you!</h1>
+        <p class="lede">We're here to provide fast, accurate, and helpful responses – just ask!</p>
+        <div class="contact-phone">
+          <svg viewBox="0 0 24 24"><path d="M6 3h4l2 5-2.5 1.5a12 12 0 0 0 5 5L16 12l5 2v4a2 2 0 0 1-2 2A15 15 0 0 1 4 5a2 2 0 0 1 2-2z"/></svg>
+          <a href="tel:+61449520560">0449 520 560</a>
+        </div>
       </div>
-      <div class="review-side">
-        <div class="price-tag"><b>AUD $595</b>Launch price. If you approve an eligible implementation of $2,500 or more within 60 days, we credit the full Review fee.</div>
-        <a class="btn btn-on-navy" href="#book">Book a free call →</a>
-        <div class="promise"><b>Minimum Opportunity Promise —</b> if we complete the Review and can't identify at least one evidence-based improvement opportunity reasonably estimated to be worth $3,000+ a year (or an agreed operational outcome), we refund the Review fee. Estimates are not guaranteed outcomes and are based on disclosed assumptions.</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="band">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div class="eyebrow">How it works</div>
-      <h2>Book it. Work through it. Get your Top 3.</h2>
-    </div>
-    <div class="method-steps">
-      <div class="method-step reveal">
-        <div class="icon-badge ib-1"><svg viewBox="0 0 24 24"><circle cx="10" cy="10" r="6.2"/><path d="M20 20l-4.3-4.3"/></svg></div>
-        <h3>Book a fit call</h3>
-        <p>A free 20-minute call to confirm the Review is the right fit for your business before anything is booked in.</p>
-      </div>
-      <div class="method-step reveal">
-        <div class="icon-badge ib-3"><svg viewBox="0 0 24 24"><path d="M14.7 6.3a3.5 3.5 0 0 0-4.9 4.9L4 17v3h3l5.8-5.8a3.5 3.5 0 0 0 4.9-4.9l-2.6 2.6-2-2 2.6-2.6z"/></svg></div>
-        <h3>Work through it together</h3>
-        <p>One focused 60–90 minute session using real examples from your business — not a long workshop, and no homework.</p>
-      </div>
-      <div class="method-step reveal">
-        <div class="icon-badge ib-4"><svg viewBox="0 0 24 24"><path d="M4 19h16M8 19V9M13 19V5M18 19v-7"/></svg></div>
-        <h3>Get your Top 3</h3>
-        <p>A concise report with your Top 3 opportunities, quantified, prioritised and yours to keep — no obligation to use us.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="band band-soft">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div class="eyebrow">Working with us</div>
-      <h2>Low hassle. Independent judgement. Clear ownership.</h2>
-    </div>
-    <div class="trust">
-      <div class="trust-cell reveal"><h3>Low hassle</h3><p>We carry the analysis, project plan, implementation and measurement.</p></div>
-      <div class="trust-cell reveal"><h3>Independent judgement</h3><p>We may recommend a process change, an existing feature, or doing nothing yet.</p></div>
-      <div class="trust-cell reveal"><h3>Clear ownership</h3><p>You own the Review findings. Your data, access and responsibilities are documented.</p></div>
-    </div>
-  </div>
-</section>
-
-<section class="band">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div class="eyebrow">FAQ</div>
-      <h2>Frequently asked questions</h2>
-    </div>
-    <div class="faq">
-      <div class="faq-item open">
-        <button class="faq-trigger"><span><span class="qnum mono">01</span>&nbsp;&nbsp;What if you don't find anything worth fixing?</span><span class="qmark">+</span></button>
-        <div class="faq-panel"><div class="faq-panel-inner"><p>We qualify first. If we complete an eligible Review and can't identify the minimum opportunity described in our promise, we refund the Review fee. You still own the findings either way.</p></div></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-trigger"><span><span class="qnum mono">02</span>&nbsp;&nbsp;Do I have to implement with momentuum?</span><span class="qmark">+</span></button>
-        <div class="faq-panel"><div class="faq-panel-inner"><p>No. You own the Review findings and can implement them with us, another provider, or your own team — there's no obligation to use us.</p></div></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-trigger"><span><span class="qnum mono">03</span>&nbsp;&nbsp;What counts as "real examples"?</span><span class="qmark">+</span></button>
-        <div class="faq-panel"><div class="faq-panel-inner"><p>Actual enquiries, jobs, quotes or workflows from your business — not hypothetical scenarios. That's what lets us quantify the opportunity properly instead of guessing.</p></div></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-trigger"><span><span class="qnum mono">04</span>&nbsp;&nbsp;What if my problem is already obvious?</span><span class="qmark">+</span></button>
-        <div class="faq-panel"><div class="faq-panel-inner"><p>Then the Review probably isn't what you need — have a look at <a href="proven-solutions.html">Proven Solutions</a> instead, or book a discovery call and we'll point you the right way.</p></div></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="band band-soft">
-  <div class="wrap">
-    <div class="section-head section-head-center reveal">
-      <div class="eyebrow">Other ways to start</div>
-      <h2>If the Review isn't quite right</h2>
-      <p>If your problem is already clear, or spans more than a couple of workflows, one of these might fit better.</p>
-    </div>
-    <div class="paths paths-2">
-      <div class="path reveal">
-        <div class="path-lead">I know what I need fixed.</div>
-        <h3>Proven Solutions</h3>
-        <p>A common problem, a proven approach and a faster implementation. Start here when the pain is already clear — such as lead investigation, customer reactivation, after-hours triage, missed enquiries or quote follow-up.</p>
-        <a class="btn btn-outline" href="proven-solutions.html">Explore Proven Solutions</a>
-      </div>
-      <div class="path reveal">
-        <div class="path-lead">We need to improve performance.</div>
-        <h3>Business Optimisation</h3>
-        <p>For broader problems involving capacity, workflow, margin, systems, reporting or owner dependency. We diagnose the constraints, build a practical improvement plan and help implement it.</p>
-        <a class="btn btn-outline" href="business-optimisation.html">Talk about Business Optimisation</a>
+      <div class="hero-side">
+        <form class="contact-form reveal" action="https://formspree.io/f/hello@momentuum.com.au" method="POST">
+          <input type="hidden" name="_subject" value="New enquiry from momentuum.com.au">
+          <input class="honeypot" type="text" name="_gotcha" tabindex="-1" autocomplete="off">
+          <div class="form-row-pair">
+            <div class="form-row">
+              <label for="cf-name">Name</label>
+              <input type="text" id="cf-name" name="name" required>
+            </div>
+            <div class="form-row">
+              <label for="cf-phone">Phone (optional)</label>
+              <input type="tel" id="cf-phone" name="phone">
+            </div>
+          </div>
+          <div class="form-row">
+            <label for="cf-email">Email</label>
+            <input type="email" id="cf-email" name="email" required>
+          </div>
+          <div class="form-row">
+            <label for="cf-business">Business name (optional)</label>
+            <input type="text" id="cf-business" name="business">
+          </div>
+          <div class="form-row">
+            <label for="cf-message">How can we help?</label>
+            <textarea id="cf-message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-solid">Send enquiry</button>
+          <p class="form-fineprint">We usually reply within one business day.</p>
+        </form>
       </div>
     </div>
   </div>
@@ -589,8 +524,8 @@
   <div class="wrap">
     <div class="ff-top">
       <div class="ff-cta">
-        <h2>Still not sure where to start?</h2>
-        <p class="lede">Book a free discovery call. We'll learn about your business, talk through what feels slower or less reliable than it should, and tell you plainly whether the Opportunity Review is the right next step — or if something else would serve you better.</p>
+        <h2>Prefer to talk it through?</h2>
+        <p class="lede">Book a free 20-minute discovery call instead of filling out the form. We'll learn about your business and tell you plainly what would actually help.</p>
         <div class="final-ctas">
           <a class="btn btn-on-navy" href="#book" id="book">Book a free discovery call</a>
           <a class="btn btn-outline-on-navy" href="proven-solutions.html">Explore Proven Solutions</a>
